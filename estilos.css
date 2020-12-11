@@ -3,6 +3,7 @@
   /* Variables  */
   --pink-color:#ff9b93;
   --white-color: white;
+
   /* Espaciado */
   --space: 10px;
 
@@ -15,8 +16,11 @@ body, html {
   margin: 0;
   font-size: 12px;
   font-family: Helvetica;
-}
 
+}
+body {
+  background-color: #f9f7cf;
+}
 nav {
   display: flex;
   background-color:#ff9b93 ;
@@ -24,50 +28,62 @@ nav {
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
-
   }
+
 nav ul {
   display: flex;
-
 }
+
 nav li {
   padding-left: 20px;
   list-style: none;
 }
+
 nav a {
   color:  var(--white-color);
   text-decoration: none;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 15px;
 }
+
 nav li a:hover {
   color: black;
 }
+
 .main_section {
-  padding: 10%;
+  padding: 15%;
   text-align: center;
 }
+
 .products {
   background-image: url("curve.png");
   max-height: 25px;
   background-size: cover;
   background-position: center top;
-
   padding: 15%;
   display: flex;
+  background-repeat: no-repeat;
+  height: 95px;
+
 }
+
 .product {
-  padding: var(--space);
-  margin-top: -230px;
+  padding: 20px;
+  margin-top: -226px;
 }
+
 .product .content {
   background-color: var(--white-color);
-  padding: 15px;
   box-shadow:2px 1px 11px 2px #8c8282;
+  padding: 20px;
+  border-radius: 3px;
+
 }
-.image_content{
+
+.image-product{
   text-align: center;
 }
+
 .main_button {
   background-color: var(--pink-color);
   width: 100%;
@@ -80,10 +96,80 @@ nav li a:hover {
   cursor: pointer;
   border-radius: 2px;
 }
+
 .main_button:hover {
   background-color: #b96963;
 }
+
 p {
   font-size: 20px;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.beneficios{
+  padding: 10%;
+  display: flex;
+
+}
+
+.beneficio{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: justify;
+}
+
+h1, h3 {
+  font-family: 'Lato', sans-serif;
+
+}
+
+.title_menciones {
+  text-align: center;
+}
+
+.Menciones{
+
+  display: flex;
+}
+
+.text-mencion{
+  text-align: justify;
+}
+
+.mencion{
+  text-align: center;
+  padding: 10px;
+  background-color: #ffe0d8;
+}
+
+footer {
+  background-color: #41584b;
+  padding: 5px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer ul li {
+  list-style: none;
+  font-size: 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+footer ul li a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+footer li a:hover {
+  color: #d2b4b4;
 }
