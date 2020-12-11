@@ -1,14 +1,27 @@
+
+:root {
+  /* Variables  */
+  --pink-color:#ff9b93;
+  --white-color: white;
+  /* Espaciado */
+  --space: 10px;
+
+  /* Box Shadow */
+  --box: 2px 1px 11px 2px #8c8282;
+}
+
 body, html {
   padding: 0;
   margin: 0;
   font-size: 12px;
   font-family: Helvetica;
 }
+
 nav {
   display: flex;
   background-color:#ff9b93 ;
-  padding: 10px;
-  color: white;
+  padding: var(--space);
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
 
@@ -22,7 +35,7 @@ nav li {
   list-style: none;
 }
 nav a {
-  color: white;
+  color:  var(--white-color);
   text-decoration: none;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 15px;
@@ -44,23 +57,23 @@ nav li a:hover {
   display: flex;
 }
 .product {
-  padding: 10px;
+  padding: var(--space);
   margin-top: -230px;
 }
 .product .content {
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 2px 1px 11px 2px #8c8282;
+  box-shadow:2px 1px 11px 2px #8c8282;
 }
 .image_content{
   text-align: center;
 }
 .main_button {
-  background-color: #ff9b93;
+  background-color: var(--pink-color);
   width: 100%;
   padding: 10px;
   font-size: 17px;
-  color: white;
+  color: var(--white-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   border: none;
