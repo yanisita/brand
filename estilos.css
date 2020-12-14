@@ -53,6 +53,8 @@ nav li a:hover {
 .main_section {
   padding: 15%;
   text-align: center;
+  color: #222831;
+  font-family: 'Oswald', sans-serif;
 }
 
 .products {
