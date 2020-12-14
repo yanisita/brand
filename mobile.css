@@ -10,8 +10,9 @@
   .main_section{
     padding: 4%;
   }
-  .beneficios, .Menciones{
+  .beneficios, .Menciones, nav {
     display: inherit;
+    text-align: center;
   }
   .footer  ul{
     display: block;
