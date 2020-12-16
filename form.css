@@ -3,7 +3,7 @@
         background: rgba(255, 255, 255, .9);
         padding: 1.5em;
         border-radius: 10px;
-
+        background-color: #f9f7cf;
     }
     .form input{
         width: 100%;
@@ -33,4 +33,18 @@
       text-align: center;
       color: #222831;
       font-family: 'Oswald', sans-serif;
+    }
+  /* body {
+      background-color: #f9f7cf;
+    } */
+    @media (max-width: 900px) {
+      .form input{
+          width: 100%;
+          padding: 15px;
+          font-size: 16px;
+          border: 1px solid #dbdbe2;
+          border-radius: 5px;
+          box-sizing: border-box;
+          margin-bottom: 38px;
+      }
     }

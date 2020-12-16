@@ -2,12 +2,12 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Brand | Contacto</title>
+    <title>Brand</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="form.css">
     <link rel="icon" type= "image/png" href="logo.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +23,7 @@
     <!-- Barra de Navegación -->
     <nav class="fadeInDown">
 
-      <div class="Brand_image" >
+      <div class="Brand_image">
         <a href="index.html"><img src="logo.png" alt="Brand" /></a>
       </div>
 
@@ -38,22 +38,43 @@
 
     </nav>
     <!-- Aquí acaba la Barra de Navegación -->
-    <div class="form">
-      <img src="pusheen.gif" alt="pusheen" width="200px" height="200px">
-      <form action=”URL_DONDE_QUIERO_ENVIAR_LO_DATOS”>
-        <h1>¡Contactanos!</h1>
-      <label for=”nombre”>Nombre:</label>
-      <input type=”text” id=”nombre” name=”user_name” placeholder="Nombre y Apellido"/>
 
-      <label for=“email“ >Email:</label>
-      <input type=”text” id=”email” name=”user_email” placeholder= "example@hotmail.com" />
-      <label for=“email“>Mensaje:</label>
-      <input type=”textarea” id=”mensaje” name=”user_message”  placeholder="Tu mensaje bonito aquí..." />
-      <button type=”submit”>¡Enviar!</button>
-    </form>
+    <div class="container">
+      <div class="col-12">
+        <h1>Productos</h1>
+      </div>
+
+  <div class="row">
+    <div class="col-4">
+      <img src="product1.gif" class= "product-image">
+    </div>
+    <div class="col-8"><h3>Producto 1</h3>
+      <p>Disponemos de los gatitos más tiernos en todo el mercado. ¿Apostamos?</p>
     </div>
 
-    <!-- Inicio del footer -->
+  </div>
+  <div class="row">
+    <div class="col-8">
+      <h3>Producto 2</h3>
+      <p>En Brand podrás encontrar todas las razas, tamaños y edades de gatitos.</p>
+    </div>
+    <div class="col-4">
+      <img src="product2.gif" class= "product-image">
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="product3.gif" class= "product-image">
+    </div>
+      <div class="col-8">
+        <h3>Producto 3</h3>
+        <p>Tenemos productos alimenticios para aumentar la calidad de vida de tu amigo peludo.</p>
+
+    </div>
+  </div>
+</div>
+
     <footer class="footer">
    <div>
      <ul>
@@ -61,8 +82,11 @@
        <li>Hecho con 💖 por:<a href="https://twitter.com/yanisitahh"> yanisitahh</a></li>
      </ul>
    </div>
- </footer>
-    <!-- Fin de Footer -->
+  </footer>
+
+
+      <!-- Fin de Footer -->
+
 
   </body>
 </html>
