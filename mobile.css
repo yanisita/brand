@@ -10,12 +10,15 @@
   .main_section{
     padding: 4%;
   }
-  .beneficios, .Menciones, nav {
+  .beneficios, .Menciones, nav, .faqs-answers {
     display: inherit;
     text-align: center;
   }
   .footer  ul{
     display: block;
     text-align: center;
+  }
+  .faqs-answers {
+    margin-left: auto;
   }
 }

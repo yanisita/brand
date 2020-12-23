@@ -207,3 +207,15 @@ footer li a:hover {
 .modulo_pago .main_button {
   margin-top: 10px;
 }
+.text-faqs {
+  margin-top: 50px;
+  text-align: center;
+  color: #222831;
+
+}
+.img-faqs {
+  text-align: center;
+}
+.faqs-answers {
+  margin-left: 150px;
+}

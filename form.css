@@ -34,9 +34,7 @@
       color: #222831;
       font-family: 'Oswald', sans-serif;
     }
-  /* body {
-      background-color: #f9f7cf;
-    } */
+
     @media (max-width: 900px) {
       .form input{
           width: 100%;
